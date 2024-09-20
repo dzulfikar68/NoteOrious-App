@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="io.github.dzulfikar68.noteoriousapp.HelloController"
+      spacing="10" alignment="TOP_CENTER">
+    <padding>
+      <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+    <TextField fx:id="noteInput" promptText="Enter your note"/>
+    <Button text="Add Note" onAction="#handleAddNote"/>
+    <ListView fx:id="noteListView"/>
+    <Button text="Delete Selected Note" onAction="#handleDeleteNote"/>
+    <Button text="Delete All Note" onAction="#handleDeleteAllNote"/>
+    <Button text="Import Notes from CSV" onAction="#handleImportNotes"/>
+    <Button text="Export Notes to CSV" onAction="#handleExportNotes"/>
+    <Button text="Merge Notes to Other CSV" onAction="#handleMergeNotes"/>
+</VBox>
+
+<!--<?import javafx.geometry.Insets?>-->
+<!--<?import javafx.scene.control.Label?>-->
+<!--<?import javafx.scene.layout.VBox?>-->
+
+<!--<?import javafx.scene.control.Button?>-->
+<!--<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"-->
+<!--      fx:controller="io.github.dzulfikar68.noteoriousapp.HelloController">-->
+<!--  <padding>-->
+<!--    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>-->
+<!--  </padding>-->
+
+<!--  <Label fx:id="welcomeText"/>-->
+<!--  <Button text="Hello!" onAction="#onHelloButtonClick"/>-->
+<!--</VBox>-->
