@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e520129-480e-406b-94b7-96c98230d97a" name="Changes" comment="init project">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/io/github/dzulfikar68/noteoriousapp/EditController.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/io/github/dzulfikar68/noteoriousapp/edit-window.fxml" afterDir="false" />
+    <list default="true" id="4e520129-480e-406b-94b7-96c98230d97a" name="Changes" comment="update feature: copy, edit, delete, move item from list">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/io/github/dzulfikar68/noteoriousapp/EditController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/io/github/dzulfikar68/noteoriousapp/EditController.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/io/github/dzulfikar68/noteoriousapp/HelloController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/io/github/dzulfikar68/noteoriousapp/HelloController.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/io/github/dzulfikar68/noteoriousapp/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/io/github/dzulfikar68/noteoriousapp/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,12 +69,21 @@
       <option name="project" value="LOCAL" />
       <updated>1726874631443</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update feature: copy, edit, delete, move item from list">
+      <option name="closed" value="true" />
+      <created>1726928602652</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726928602652</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="init project" />
-    <option name="LAST_COMMIT_MESSAGE" value="init project" />
+    <MESSAGE value="update feature: copy, edit, delete, move item from list" />
+    <option name="LAST_COMMIT_MESSAGE" value="update feature: copy, edit, delete, move item from list" />
   </component>
 </project>

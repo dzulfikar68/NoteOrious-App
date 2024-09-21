@@ -3,6 +3,7 @@ package io.github.dzulfikar68.noteoriousapp
 import javafx.event.ActionEvent
 import javafx.fxml.FXML
 import javafx.scene.control.TextField
+import javafx.scene.input.KeyCode
 import javafx.stage.Stage
 
 class EditController {
@@ -11,12 +12,21 @@ class EditController {
 
     private var editedText: String? = null
 
+    @FXML
+    fun initialize() {
+        textField.setOnKeyPressed { event ->
+            if (event.code == KeyCode.ENTER){
+                onOkButtonClicked()
+            }
+        }
+    }
+
     fun setInitialText(text: String) {
         textField.text = text
     }
 
     @FXML
-    fun onOkButtonClicked(actionEvent: ActionEvent) {
+    fun onOkButtonClicked() {
         editedText = textField.text
 
         val stage = textField.scene.window as Stage

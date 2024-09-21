@@ -49,6 +49,21 @@ class HelloController {
             }
         }
 
+        noteListView.setOnMouseClicked { event ->
+            if (event.clickCount == 2) {
+                handleEditNote()
+            }
+        }
+
+        noteListView.setOnKeyPressed { event ->
+            if (event.code == KeyCode.BACK_SPACE) {
+                val selectedItem = noteListView.selectionModel.selectedItem
+                if (selectedItem != null) {
+                    notes.remove(selectedItem)
+                }
+            }
+        }
+
         // Mengatur cell factory untuk ListView, memungkinkan drag and drop reorder
         noteListView.cellFactory = Callback {
             object : ListCell<String>() {
@@ -146,7 +161,9 @@ class HelloController {
     @FXML
     fun handleDeleteNote() {
         val selectedNote = noteListView.selectionModel.selectedItem
-        notes.remove(selectedNote)
+        if (selectedNote != null) {
+            notes.remove(selectedNote)
+        }
     }
 
     @FXML
@@ -171,7 +188,9 @@ class HelloController {
 
     @FXML
     fun handleDeleteAllNote() {
-        notes.removeAll(noteListView.items)
+        if (noteListView.items.isNotEmpty()) {
+            notes.removeAll(noteListView.items)
+        }
     }
 
     @FXML
@@ -190,10 +209,6 @@ class HelloController {
                 writer.write("$note\n")
             }
         }
-    }
-
-    fun handleEditNoteByDoubleClick() {
-
     }
 
     @FXML
