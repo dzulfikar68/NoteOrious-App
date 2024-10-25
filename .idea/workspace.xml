@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="NoteOriousApp:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e520129-480e-406b-94b7-96c98230d97a" name="Changes" comment="update feature: copy, edit, delete, move item from list" />
+    <list default="true" id="4e520129-480e-406b-94b7-96c98230d97a" name="Changes" comment="update workspace.xml">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/NoteOriousApp_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/ClickMe.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/ClickMe.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/NoteOriousApp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/io/github/dzulfikar68/noteoriousapp/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/io/github/dzulfikar68/noteoriousapp/HelloApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/io/github/dzulfikar68/noteoriousapp/HelloApplication.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,10 +57,16 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Kotlin.HelloApplicationKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.HelloApplicationKt.executor&quot;: &quot;Coverage&quot;,
+    &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;coverage&quot;
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -73,13 +94,25 @@
       <option name="project" value="LOCAL" />
       <updated>1726928602652</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update workspace.xml">
+      <option name="closed" value="true" />
+      <created>1726933989774</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726933989774</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="init project" />
     <MESSAGE value="update feature: copy, edit, delete, move item from list" />
-    <option name="LAST_COMMIT_MESSAGE" value="update feature: copy, edit, delete, move item from list" />
+    <MESSAGE value="update workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="update workspace.xml" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/NoteOriousApp$HelloApplicationKt.ic" NAME="HelloApplicationKt Coverage Results" MODIFIED="1729827137039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>
 </project>
